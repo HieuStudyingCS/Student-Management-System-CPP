@@ -34,6 +34,6 @@ def generate_csv(filename, num_students=250):
                     gpa = round(random.uniform(5.0, 10.0), 1)
                     writer.writerow([mssv, khoa, name, dob, ky_so, ten_hk, ma_mon, tin_chi, gpa])
                     
-    print(f"✅ Đã tạo thành công file {filename} với {num_students} sinh viên (Mỗi kỳ 6-8 môn)!")
+    print(f"Đã tạo thành công file {filename} với {num_students} sinh viên (Mỗi kỳ 6-8 môn)!")
 
 generate_csv("data.csv")
